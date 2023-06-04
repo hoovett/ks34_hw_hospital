@@ -1,0 +1,8 @@
+<h1>Main page hospitals</h1>
+<br><br>
+<%= link_to 'Export info about patients of hospitals as PDF', export_data_path(format: :pdf) %> <br><br>
+<%= link_to 'Export info about patients of hospitals as CSV', export_data_path(format: :csv) %><br><br>
+<%= link_to 'Export info about hospitals as PDF', download_hospital_info_pdf_path(format: :pdf) %> <br><br>
+<%= link_to 'Export info about patients as PDF', download_patient_info_pdf_path(format: :pdf) %>
+
+
